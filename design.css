@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", "sans-serif";
+    font-size: 18px;
+}
+
+.name {
+    font-size: 50px;
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 42%;
+}
+
+.reg {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    font-size: 18px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.reg p {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.reg input[type=submit] {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    background-color: #006442;
+    outline: 0;
+    border: 0;
+    color: white;
+}
+
+.reg input[type=submit]:hover {
+    background-color: white;
+    color: #006442;
+}
+
+.one {
+    padding: 10px;
+}
+
+.reg input[type=text] {
+    width: 250px;
+    height: 36px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+    color: #000;
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 18px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+
+/* Add a gray background color and some padding to the footer */
+
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    /* Set width to 100% */
+    margin: auto;
+    min-height: 200px;
+}
+
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
